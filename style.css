@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+  background-color: transparent;
+  color: rgb(241, 228, 246);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(241, 228, 246);
+  font-weight: bold;
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1500px;
+  align-items: center;
+  margin: auto;
+  padding-top: 25px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+/*Section 1*/
+/*First Image*/
+.intro {
+  background-image: url("../background-photo-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/*navbar general*/
+nav {
+  padding: 15px;
+  background-color: rgba(148, 138, 152, 0.176);
+  border-radius: 15px;
+}
+.logo {
+  height: 50px;
+}
+.purple {
+  color: #9738ad;
+}
+/*navbar-flex*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+.rhs ul li {
+  margin-left: 20px;
+}
+/*greeting*/
+
+.greeting {
+  margin-top: 200px;
+  padding: 15px;
+  width: 45%;
+  background-color: rgba(148, 138, 152, 0.426);
+  border-radius: 15px;
+}
+.greeting h1,
+.greeting h3 {
+  font-weight: bold;
+  padding: 15px;
+  color: rgb(241, 228, 246);
+}
+.greeting h2 {
+  color: #581b65;
+}
+.greeting-button {
+  margin-top: 200px;
+}
+.btn {
+  background-color: rgba(88, 27, 101, 0.9);
+  padding-left: 0;
+  padding: 15px;
+  font-size: 1.1rem;
+  border-radius: 15px;
+}
+
+/*About Page*/
+.about {
+  background-image: url("../MountianGoat-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.overlay-about {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+.about-container {
+  margin-top: -70px;
+  width: 65%;
+  background-color: rgba(28, 43, 94, 0.729);
+  border-radius: 25px;
+  color: rgb(241, 228, 246);
+  padding: 1.5rem;
+  text-align: left;
+}
+.about-container h1 {
+  text-align: left;
+  padding: 1rem;
+
+  padding-bottom: 0;
+  line-height: 2rem;
+}
+.about-container h2,
+.about-container p {
+  padding: 1rem;
+  padding-left: 5rem;
+}
+.about-btn {
+  margin: 40px 0 20px 0;
+  text-align: center;
+}
